@@ -2,6 +2,22 @@
 @import "fonts";
 @import "typography";
 
-body {
-  background: $c-gray;
+p {
+  margin: 0;
+}
+
+#thumbs {
+  display: flex;
+  width: min-content;
+  padding: 5px;
+}
+
+a {
+  img {
+    margin: 2px;
+    border: 1px solid white;
+    &:hover {
+      border: 1px solid black;
+    }
+  }
 }
